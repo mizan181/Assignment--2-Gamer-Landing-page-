@@ -1,0 +1,68 @@
+/* work sans font from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Work+Sans:wght@600;800&display=swap');
+
+/* shared style */
+*{
+    font-family: 'Work Sans', sans-serif;
+
+}
+*{
+    box-sizing: border-box;
+}
+.nav{
+    background: #FFF;
+}  
+.nav-container{
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #FFF;
+}
+.logo-container{
+    display: flex;
+    width: 50%;
+
+}
+.logo-container img{ 
+    width: 85px;
+    height: 40px;
+    margin-right: 20px; 
+}
+.logo-container p{
+    font-size: 40px;
+
+}
+.G-section{
+    color: #FF42A5;
+}
+.nav-item-container{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.nav-item-container a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #3C354F;
+}
+.icon-btn{
+    background: rgba(11, 2, 35, 0.10);
+    padding: 16px 120px 15px 20px;
+    border-radius: 8px;
+    font-weight: 500;
+   
+
+   
+}
+.icon-btn img{
+    width: 30px;
+    
+   
+    
+
+
+}
+
